@@ -12,4 +12,3 @@ int main()
     printf("(float)x / y produces: %.2f\n", (float)x / y);
     return 0; 
 }
-

@@ -14,4 +14,3 @@ int main()
     printf("%2d\n", num2);
     return 0;
 }
-
