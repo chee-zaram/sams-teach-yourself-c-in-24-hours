@@ -1,3 +1,4 @@
+/* displaying size of an array in two different ways */
 #include <stdio.h>
 
 int main()
