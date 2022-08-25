@@ -1,4 +1,6 @@
 #include <stdio.h>
+// the commented out code was my initial understanding of the question
+// just thought to leave it here
 /*
 int add_two(int x, int y)
 {
