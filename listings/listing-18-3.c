@@ -11,7 +11,6 @@ typedef char CHAR;
 typedef int INTEGER;
 
 void Convert2Upper(PTR_STR str1, PTR_STR str2);
-
 int main(){
 	STRING str;
 	STRING moon={"Whatever we wear",
