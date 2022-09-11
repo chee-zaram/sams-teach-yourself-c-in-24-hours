@@ -2,10 +2,10 @@
 
 /**
  * struct computer - structure computer tag
- * @cost - how much was paid for computer.
- * @year - when computer was bought.
- * @cpu_speed - how fast processor is.
- * @cpu_type - what make is processor.
+ * @cost: How much was paid for computer.
+ * @year: When computer was bought.
+ * @cpu_speed: How fast processor is.
+ * @cpu_type: what make is processor.
  *
  * Description: holds members of tag computer
  */
@@ -14,12 +14,12 @@ struct computer
 	float cost;
 	int year;
 	int cpu_speed;
-	char cpu_type;
+	char cpu_type[20];
 };
 
 typedef struct computer SC;
 
-int gets(int i);
+char gets();
 void DataReceive(SC *ptr_s);
 
 /**
@@ -45,9 +45,8 @@ int main(void)
 }
 
 /**
- * DataReceive - void data type
- * @SC - type def for struct computer
- * @*prt_s - pointer to string
+ * DataReceive - void data type.
+ * @prt_s: pointer to members of struct computer.
  *
  * Return: no return value.
  */
