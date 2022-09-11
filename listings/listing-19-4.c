@@ -1,7 +1,16 @@
 /* pointing to a structure */
 #include <stdio.h>
 
-struct computer {
+/**
+ * struct - structure keyword
+ * struct computer - structure tag
+ * @cost - how much was paid for computer.
+ * @year - when computer was bought.
+ * @cpu_speed - how fast processor is.
+ * @cpu_type - what make is processor.
+ */
+struct computer
+{
 	float cost;
 	int year;
 	int cpu_speed;
@@ -10,7 +19,7 @@ struct computer {
 
 typedef struct computer SC;
 
-char gets();
+int gets(int i);
 void DataReceive(SC *ptr_s);
 
 /**
@@ -21,7 +30,8 @@ void DataReceive(SC *ptr_s);
  * prints the return values.
  * Return: returns 0 on success.
  */
-int main(){
+int main(void)
+{
 	SC model;
 
 	DataReceive(&model);
@@ -31,16 +41,18 @@ int main(){
 	printf("CPU type: %s\n", model.cpu_type);
 	printf("CPU speed: %d MHz\n", model.cpu_speed);
 
-	return 0;
+	return (0);
 }
 
 /**
  * DataReceive - void data type
- * @SC *prt_s - pointer to string
+ * @SC - type def for struct computer
+ * @*prt_s - pointer to string
  *
  * Return: no return value.
  */
-void DataReceive(SC *ptr_s){
+void DataReceive(SC *ptr_s)
+{
 	printf("The type of the CPU inside the computer?\n");
 		gets((*ptr_s).cpu_type);
 	printf("The speed(MHz) of the CPU?\n");
