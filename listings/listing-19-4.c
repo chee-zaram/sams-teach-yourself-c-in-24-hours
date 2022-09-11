@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * struct - structure keyword
- * struct computer - structure tag
+ * struct computer - structure computer tag
  * @cost - how much was paid for computer.
  * @year - when computer was bought.
  * @cpu_speed - how fast processor is.
