@@ -1,4 +1,3 @@
-/* pointing to a structure */
 #include <stdio.h>
 
 /**
