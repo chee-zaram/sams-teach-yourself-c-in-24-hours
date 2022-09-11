@@ -13,6 +13,14 @@ typedef struct computer SC;
 char gets();
 void DataReceive(SC *ptr_s);
 
+/**
+ * main - entry point of program
+ * takes no argument values.
+ *
+ * Description: calls a function DataReceive with an argument,
+ * prints the return values.
+ * Return: returns 0 on success.
+ */
 int main(){
 	SC model;
 
@@ -25,6 +33,13 @@ int main(){
 
 	return 0;
 }
+
+/**
+ * DataReceive - void data type
+ * @SC *prt_s - pointer to string
+ *
+ * Return: no return value.
+ */
 void DataReceive(SC *ptr_s){
 	printf("The type of the CPU inside the computer?\n");
 		gets((*ptr_s).cpu_type);
