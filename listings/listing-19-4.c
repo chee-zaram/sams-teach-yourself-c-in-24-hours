@@ -6,6 +6,8 @@
  * @year - when computer was bought.
  * @cpu_speed - how fast processor is.
  * @cpu_type - what make is processor.
+ *
+ * Description: holds members of tag computer
  */
 struct computer
 {
