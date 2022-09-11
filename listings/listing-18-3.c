@@ -4,18 +4,19 @@
 #include <string.h>
 
 enum constants{ITEM_NUM=3,
-			   DELT='a'-'A'};
+	DELT='a'-'A'};
 typedef char *STRING[ITEM_NUM];
 typedef char *PTR_STR;
 typedef char CHAR;
 typedef int INTEGER;
 
 void Convert2Upper(PTR_STR str1, PTR_STR str2);
-int main(){
+int main()
+{
 	STRING str;
 	STRING moon={"Whatever we wear",
-				 "we become beautiful",
-				 "moon viewing!"};
+		"we become beautiful",
+		"moon viewing!"};
 	INTEGER i;
 	INTEGER term=0;
 
