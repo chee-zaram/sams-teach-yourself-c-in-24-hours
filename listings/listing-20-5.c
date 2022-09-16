@@ -4,7 +4,7 @@
 
 struct survey
 {
-	char name[30];
+	char name[31];
 	char c_d_p;
 	int age;
 	int hour_per_week;
