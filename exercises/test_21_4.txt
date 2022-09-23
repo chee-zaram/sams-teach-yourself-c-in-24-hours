@@ -1,1 +1,1 @@
-Disk file I/O is fun.
+Disk file I/O is tricky.

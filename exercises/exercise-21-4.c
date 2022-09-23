@@ -1,5 +1,5 @@
 /**
- * program to write a given string into a file called test_21.txt
+ * program to write a given string into a file called test_21_4.txt
  * by writing one character block at a time.
  */
 #include <stdio.h>
