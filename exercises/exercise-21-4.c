@@ -12,7 +12,7 @@ void WriteCB(FILE *fw, char *str);
 int main(void)
 {
 	FILE *fptr;
-	char str[] = "Disk file I/O is fun.";
+	char str[] = "Disk file I/O is tricky.";
 	char filename[] = "test_21_4.txt";
 	int reval = SUCCESS;
 
